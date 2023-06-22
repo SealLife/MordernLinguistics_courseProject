@@ -1,0 +1,352 @@
+resistance
+	resistant
+absence
+	absent
+relevance
+	relevant
+exuberance
+	exuberant
+decadence
+	decadent
+reminiscence
+	reminiscent
+violence
+	violent
+negligence
+	negligent
+repentance
+	repentant
+residence
+	resident
+arrogance
+	arrogant
+dominance
+	dominant
+ambivalence
+	ambivalent
+convergence
+	convergent
+observance
+	observant
+reliance
+	reliant
+coincidence
+	coincident
+convenience
+	convenient
+disobedience
+	disobedient
+adolescence
+	adolescent
+impotence
+	impotent
+extravagance
+	extravagant
+intolerance
+	intolerant
+independence
+	independent
+persistence
+	persistent
+silence
+	silent
+importance
+	important
+compliance
+	compliant
+interdependence
+	interdependent
+congruence
+	congruent
+dissonance
+	dissonant
+indifference
+	indifferent
+salience
+	salient
+radiance
+	radiant
+defiance
+	defiant
+resilience
+	resilient
+divergence
+	divergent
+reluctance
+	reluctant
+diligence
+	diligent
+obedience
+	obedient
+recurrence
+	recurrent
+fragrance
+	fragrant
+inconvenience
+	inconvenient
+indulgence
+	indulgent
+resurgence
+	resurgent
+brilliance
+	brilliant
+consequence
+	consequent
+difference
+	different
+competence
+	competent
+confluence
+	confluent
+excellence
+	excellent
+reticence
+	reticent
+insistence
+	insistent
+abundance
+	abundant
+instance
+	instant
+eloquence
+	eloquent
+permanence
+	permanent
+coherence
+	coherent
+abstinence
+	abstinent
+existence
+	existent
+preponderance
+	preponderant
+tolerance
+	tolerant
+innocence
+	innocent
+dependence
+	dependent
+distance
+	distant
+elegance
+	elegant
+ignorance
+	ignorant
+incompetence
+	incompetent
+resonance
+	resonant
+attendance
+	attendant
+ambience
+	ambient
+confidence
+	confident
+prudence
+	prudent
+significance
+	significant
+intelligence
+	intelligent
+prevalence
+	prevalent
+affluence
+	affluent
+transcendence
+	transcendent
+impatience
+	impatient
+benevolence
+	benevolent
+acquiescence
+	acquiescent
+prominence
+	prominent
+evidence
+	evident
+vigilance
+	vigilant
+incontinence
+	incontinent
+reverence
+	reverent
+turbulence
+	turbulent
+
+acquaintance
+audience
+inexperience
+entrance
+dice
+police
+necklace
+choice
+lettuce
+deference
+piece
+eyepiece
+acceptance
+accordance
+incidence
+patience
+bodice
+annoyance
+justice
+influence
+juice
+lance
+precipice
+centerpiece
+presence
+circumference
+practice
+preface
+substance
+vengeance
+subsistence
+niece
+office
+renaissance
+furnace
+credence
+reconnaissance
+parlance
+sentence
+deterrence
+advice
+romance
+stance
+interference
+severance
+variance
+sacrifice
+commerce
+performance
+solstice
+solace
+finance
+neuroscience
+emergence
+ordnance
+experience
+jurisprudence
+injustice
+place
+sauce
+hindrance
+fence
+trance
+menace
+airspace
+assurance
+source
+divorce
+occurrence
+reference
+ordinance
+alliance
+allowance
+cadence
+provenance
+utterance
+prejudice
+populace
+auspice
+semblance
+face
+resemblance
+disappearance
+accomplice
+assistance
+appliance
+palace
+countenance
+marketplace
+science
+hospice
+insurance
+governance
+spice
+force
+essence
+circumstance
+crevice
+invoice
+correspondence
+sustenance
+disservice
+mouthpiece
+disturbance
+surveillance
+grace
+inheritance
+conference
+voice
+remittance
+counterbalance
+avoidance
+sequence
+birthplace
+lace
+allegiance
+imbalance
+nuisance
+preference
+peace
+cowardice
+pace
+terrace
+deliverance
+fireplace
+malice
+equivalence
+adherence
+service
+resource
+precedence
+apprentice
+cyberspace
+grievance
+fleece
+edifice
+device
+interface
+slice
+truce
+aerospace
+ace
+condolence
+balance
+guidance
+race
+vice
+remembrance
+artifice
+penance
+workplace
+endurance
+prince
+perseverance
+inference
+chance
+nuance
+masterpiece
+lattice
+province
+rice
+space
+reassurance
+workforce
+notice
+ambulance
+malpractice
+disgrace
+ice
+price
+appearance
+conscience
+farce
+surface
+novice
+clearance
+maintenance
