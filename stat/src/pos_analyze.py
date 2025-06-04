@@ -1,4 +1,5 @@
-""" Convert the output file of tree-tagger to a json """
+"""Convert the output file of tree-tagger to a json"""
+
 from misc import *
 
 pos_info: dict[str, str] = {
@@ -16,7 +17,7 @@ pos_info: dict[str, str] = {
     'AVQ': 'Adv',
     'DT0': 'Det',
     'DTQ': 'Det',
-    'CJS': 'Conj'
+    'CJS': 'Conj',
 }
 
 
@@ -29,16 +30,13 @@ def analyze(tagged: File_PATH, output: File_PATH):
         pos_words.setdefault(pos_info.get(pos, pos), []).append(word)
 
     FileOp.write_json(output, pos_words)
-    pl = [f"{k}: {len(pos_words[k])}" for k in pos_words]
-    pl.sort(key=lambda x: int(x[x.find(':')+2:]), reverse=True)
-    print(
-        f'{tagged.name}: {", ".join(pl)}'
-    )
+    pl = [f'{k}: {len(pos_words[k])}' for k in pos_words]
+    pl.sort(key=lambda x: int(x[x.find(':') + 2 :]), reverse=True)
+    print(f'{tagged.name}: {", ".join(pl)}')
 
 
 def main():
-    mode = input(
-        'Mode:\n\tc: ce_words\n\ts: se_words\n\tcs: both\n\tinf: inf_words\nEnter: ')
+    mode = input('Mode:\n\tc: ce_words\n\ts: se_words\n\tcs: both\n\tinf: inf_words\nEnter: ')
     match mode:
         case 'c':
             analyze(OutputFile.CE_TAGGED, OutputFile.CE_POS)

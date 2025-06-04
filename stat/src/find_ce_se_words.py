@@ -1,4 +1,5 @@
-""" Find ce and se words """
+"""Find ce and se words"""
+
 from misc import *
 
 

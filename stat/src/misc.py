@@ -1,44 +1,39 @@
 import json
-import os
 from enum import Enum
+from pathlib import Path
 from typing import IO, Any
 
-
-os.chdir('E:\\ZJU\\ModernLinguistics\\stat\\src')
-
-REL_MAT_PATH = '..\\material\\'
-OUT_PATH = '..\\output\\'
-SRC_PATH = '.\\'
+REL_MAT_PATH = Path('material')
+OUT_PATH = Path('output')
 
 
-class File_PATH(Enum):
-    ...
+class File_PATH(Enum): ...
 
 
 class Wordbook(File_PATH):
-    COCA20000 = REL_MAT_PATH+'coca20000.txt'
-    INF2OF12 = REL_MAT_PATH+'2of12inf.txt'
-    SEL_WORDS = REL_MAT_PATH+'selected_words.txt'
-    INF_WORDS = REL_MAT_PATH+'inf_words.txt'
-    CE_WORDS = REL_MAT_PATH+'ce_words.txt'
-    SE_WORDS = REL_MAT_PATH+'se_words.txt'
-    CE_PRON = REL_MAT_PATH+'ce_pronunciation.txt'
-    SE_PRON = REL_MAT_PATH+'se_pronunciation.txt'
+    COCA20000 = REL_MAT_PATH / 'coca20000.txt'
+    INF2OF12 = REL_MAT_PATH / '2of12inf.txt'
+    SEL_WORDS = REL_MAT_PATH / 'selected_words.txt'
+    INF_WORDS = REL_MAT_PATH / 'inf_words.txt'
+    CE_WORDS = REL_MAT_PATH / 'ce_words.txt'
+    SE_WORDS = REL_MAT_PATH / 'se_words.txt'
+    CE_PRON = REL_MAT_PATH / 'ce_pronunciation.txt'
+    SE_PRON = REL_MAT_PATH / 'se_pronunciation.txt'
 
 
 class OutputFile(File_PATH):
-    INF_TAGGED = OUT_PATH+'inf_tagged.txt'
-    INF_POS = OUT_PATH+'inf_pos.json'
-    CE_TAGGED = OUT_PATH+'ce_tagged.txt'
-    CE_POS = OUT_PATH+'ce_pos.json'
-    CE_N_ADJ = OUT_PATH+'ce_n_adj.txt'
-    CE_SOUND = OUT_PATH+'ce_sound_patt.txt'
-    CE_SOUND_PATT = OUT_PATH+'ce_sound_patt.txt'
-    SE_TAGGED = OUT_PATH+'se_tagged.txt'
-    SE_POS = OUT_PATH+'se_pos.json'
-    SE_N_ADJ = OUT_PATH+'se_n_adj.txt'
-    SE_SOUND = OUT_PATH+'se_sound_patt.txt'
-    SE_SOUND_PATT = OUT_PATH+'se_sound_patt.txt'
+    INF_TAGGED = OUT_PATH / 'inf_tagged.txt'
+    INF_POS = OUT_PATH / 'inf_pos.json'
+    CE_TAGGED = OUT_PATH / 'ce_tagged.txt'
+    CE_POS = OUT_PATH / 'ce_pos.json'
+    CE_N_ADJ = OUT_PATH / 'ce_n_adj.txt'
+    CE_SOUND = OUT_PATH / 'ce_sound_patt.txt'
+    CE_SOUND_PATT = OUT_PATH / 'ce_sound_patt.txt'
+    SE_TAGGED = OUT_PATH / 'se_tagged.txt'
+    SE_POS = OUT_PATH / 'se_pos.json'
+    SE_N_ADJ = OUT_PATH / 'se_n_adj.txt'
+    SE_SOUND = OUT_PATH / 'se_sound_patt.txt'
+    SE_SOUND_PATT = OUT_PATH / 'se_sound_patt.txt'
 
 
 class FileOp:
